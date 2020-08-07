@@ -1,7 +1,7 @@
-FROM ubuntu:bionic
+FROM alpine:latest
 
 # Install the packages we need.
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+RUN apk add tzdata
 
 # Add scripts
 ADD showdate.sh /
