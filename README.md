@@ -1,6 +1,6 @@
 # Local Time Lab
 
-_localtimelab_ is a Docker container for tinkering with the local time/time zone of a Docker container.
+_localtimelab_ is a Docker container for tinkering how to set the local time/time zone of a Docker container.
 
 ## Background
 
